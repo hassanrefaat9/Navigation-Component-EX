@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AFragment"
+        android:background="@color/design_default_color_primary">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btn_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:backgroundTint="#E91E63"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="60dp" />
+
+        <Button
+            android:id="@+id/btn_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:backgroundTint="#E91E63"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp" />
+
+        <ImageView
+            android:transitionName="transition"
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/h" />
+
+    </FrameLayout>
+</layout>
